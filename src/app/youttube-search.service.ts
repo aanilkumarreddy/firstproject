@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
 
 
 
-const YOUTUBE_API_KEY = 'AIzaSyDcH9oV5KN6vqmr763Rfqlw-VGRSTFPYuE';
+const YOUTUBE_API_KEY = 'Youtube_API_KEY';
 const YOUTUBE_API_URL = 'https://www.googleapis.com/youtube/v3/search';
 
 @Injectable({
