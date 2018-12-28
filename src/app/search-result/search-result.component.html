@@ -1,0 +1,13 @@
+<div class="col-sm-6 col-md-4">
+  <div class="thumbnail">
+    <img src="{{result.thumbnailUrl}}">
+    <div class="caption">
+      <h4>{{result.title}}</h4>
+      <p>{{result.description}}</p>
+      <p><a href="{{result.videoUrl}}" class="btn btn-default" role="button">
+          Watch</a>
+      </p>
+      <button mat-button (click)="openVideo()" >Watch</button>
+    </div>
+  </div>
+</div>
